@@ -39,46 +39,69 @@ Analyze sales and customer data to identify top products per region, calculate r
 | amount              | DECIMAL| Total amount of the transaction          |
 | payment_method      | VARCHAR| Payment method used (Cash, Bank, Mobile)|
 
----
 
 ## Queries Implemented
 
 1. **Top 5 Products per Region** – Using `RANK()`, `DENSE_RANK()`, `PERCENT_RANK()`  
-![sql_script](sql_scripts/01_database_setup.png)
-- [Running Monthly Sales Totals](./sql_scripts/01_database_setup.sql)
+
+- [Running Monthly Sales Totals](./sql_scripts/05_top_products_rank.sql)
+
+![sql_script](./sql_scripts/05_top_products_rank.png)
 
 2. **Running Monthly Sales Totals** – Using `SUM() OVER()` 
+
 - [Running Monthly Sales Totals](./sql_scripts/02_ranking_functions.sql)
+
  ![sql_scripts](sql_scripts/02_ranking_functions.png)
 
-3. **3-Month Moving Averages** – Using `AVG() OVER()` 
-- [Running Monthly Sales Totals](./sql_scripts/03_aggregate_functions.sql)
+3. **Month Moving Averages** – Using `AVG() OVER()` 
+
+- [Month Moving Averages](./sql_scripts/03_aggregate_functions.sql)
+
 ![sql_scripts](sql_scripts/03_aggregate_functions.png) 
 
 4. **Month-over-Month Growth** – Using `LAG()` and `LEAD()` 
-- [Running Monthly Sales Totals](./sql_scripts/04_navigation_functions.sql)
+
+- [Month-over-Month Growth](./sql_scripts/04_navigation_functions.sql)
+
 ![sql_scripts](sql_scripts/04_navigation_functions.png) 
 
 5. **Customer Segmentation** – Using `NTILE(4)` and `CUME_DIST()`
-- [Running Monthly Sales Totals](./sql_scripts/05_distribution_functions.sql)
+
+- [Customer Segmentation](./sql_scripts/05_distribution_functions.sql)
+
 ![sql_scripts](sql_scripts/05_distribution_functions.png)
 
 ## Screenshots
 All screenshots are saved in the  screenshots folder.  
 Examples: **Customers table creation**
+
 ![screenshots](screenshots/01_customers_table.png) 
+
  **Products table creation**
+
 ![screenshots](screenshots/02_products_table.png) 
+
 **Transactions table creation**
+
 ![screenshots](screenshots/03_transactions_table.png) 
+
  **Joined transactions**
+
 ![screenshots](screenshots/04_joined_transactions.png) 
+
 **Top Products rank**
+
 ![screenshots](screenshots/05_top_products_rank.png) 
+
 **Running monthly totals** 
+
 ![screenshots](screenshots/06_running_totals.png) 
+
  **Month-over-month growth** 
+
 ![screenshots](screenshots/07_mom_growth.png)  
+
 **Customer segmentation**
 ![screenshots](screenshots/08_customer_quartiles.png) 
 
