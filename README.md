@@ -1,4 +1,8 @@
-# plsql-window-functions--Iris---Isimbi-
+# Names: Isimbi Mushimire Iris
+# ID: 27121
+# PL assignment
+
+# plsql-window-functions-Iris-Isimbi-
 PL/SQL Window Functions Analysis for Rwanda Coffee Collective - Sales Performance and Customer Segmentation
 
 ## Business Problem
@@ -40,15 +44,15 @@ Analyze sales and customer data to identify top products per region, calculate r
 ## Queries Implemented
 
 1. **Top 5 Products per Region** – Using `RANK()`, `DENSE_RANK()`, `PERCENT_RANK()`  
-![sql_scripts](sql_scripts/01_database_setup.sql)
+![sql_script](sql_scripts/01_database_setup.png)
 2. **Running Monthly Sales Totals** – Using `SUM() OVER()` 
- ![sql_scripts](sql_scripts/02_ranking_functions.sql)
+ ![sql_scripts](sql_scripts/02_ranking_functions.png)
 3. **3-Month Moving Averages** – Using `AVG() OVER()` 
-![sql_scripts](sql_scripts/03_aggregate_functions.sql) 
+![sql_scripts](sql_scripts/03_aggregate_functions.png) 
 4. **Month-over-Month Growth** – Using `LAG()` and `LEAD()` 
-![sql_scripts](sql_scripts/04_navigation_functions.sql) 
+![sql_scripts](sql_scripts/04_navigation_functions.png) 
 5. **Customer Segmentation** – Using `NTILE(4)` and `CUME_DIST()`
-![sql_scripts](sql_scripts/05_distribution_functions.sql)
+![sql_scripts](sql_scripts/05_distribution_functions.png)
 
 ## Screenshots
 All screenshots are saved in the  screenshots folder.  
@@ -98,5 +102,5 @@ Examples:
 All sources were properly cited. Implementations and analysis represent original work. No AI-generated content was copied without attribution or adaptation.
 
 ## Repository Link
-[GitHub URL]
+https://github.com/irisisimbi/plsql-window-functions--Iris---Isimbi-.git
  
