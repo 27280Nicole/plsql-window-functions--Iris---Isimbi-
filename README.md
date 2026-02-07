@@ -1,8 +1,8 @@
-# Names: Isimbi Mushimire Iris
-# ID: 27121
+# Names: UMUTONIWASE Nicole
+# ID: 27280
 # PL assignment
 
-# plsql-window-functions-Iris-Isimbi-
+# plsql-window-functions-27280-Nicole-
 PL/SQL Window Functions Analysis for Rwanda Coffee Collective - Sales Performance and Customer Segmentation
 
 ## Business Problem
@@ -141,5 +141,5 @@ Examples: **Customers table creation**
 All sources were properly cited. Implementations and analysis represent original work. No AI-generated content was copied without attribution or adaptation.
 
 ## Repository Link
-https://github.com/irisisimbi/plsql-window-functions--Iris---Isimbi-.git
+https://github.com/27280Nicole/-plsql_window_functions_-27280-_-Nicole-
  
